@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header, footer, nav {display: block; }
+
+#website {
+	width:928px;
+	height:500px;
+	margin:0px auto;
+}
+
+#header {
+        display:inline;
+        float:left;
+        width: 928px;
+        height: 101px;
+        background-image: url(../afbeeldingen/01_Home_03.jpg);
+
+}
+
+header h1, section h1, nav h1 {
+       visibility:  hidden;
+}
+
+
+
+
+
+#nav {
+        display:inline;
+        float:left;
+        width: 928px;
+        height: 35px;
+        background-image: url(../afbeeldingen/01_Home_05.jpg);
+}
+
+nav li {
+    display:inline;
+    padding: 0px 20px 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #009900;
+    
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #00dddd;
+    
+}
+
+#content_top {
+    width: 928px;
+    height:242px;
+    display:inline;
+    float:left;
+    
+}
+
+#content_top_left {
+    width: 676px;
+    height:242px; 
+    display:inline;
+    float:left;
+    background-image: url(../afbeeldingen/01_Home_06.jpg);
+    
+}
+
+#content_top_right {
+    width: 252px;
+    height:242px; 
+    display:inline;
+    float:left;
+    background-color: #bebebe;
+    text-align: center;
+    padding-top: 120px;
+    
+}
+
+#content {
+    width: 928px;
+    min-height:400px; 
+    overflow: auto;
+    display:inline;
+    float:left;
+    background-color: #eee;
+    
+}
+
+
+#content a {
+    text-decoration: none;
+    color: #009900;
+    
+}
+
+#content a:hover {
+    text-decoration: none;
+    color: #00dddd;
+    
+}
+
+#footer {
+    width: 928px;
+    height:20px;
+    display:inline;
+    float:left;
+    background-color: #bebebe;
+    
+}
+
+footer h1 {
+    font-family: arial;
+    font-size: 9px;
+    color: #111;
+    text-align: center;
+}
